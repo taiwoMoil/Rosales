@@ -7,7 +7,7 @@ const achievements = [
     icon: Users,
     number: '500+',
     title: 'Happy Customers',
-    subtitle: 'Across Austin Area'
+    subtitle: 'Across Buda Area'
   },
   {
     icon: Clock,
@@ -19,7 +19,7 @@ const achievements = [
     icon: MapPin,
     number: '4',
     title: 'Cities Served',
-    subtitle: 'Austin Metro'
+    subtitle: 'Buda Metro'
   },
   {
     icon: Award,
@@ -75,7 +75,7 @@ export function AboutSection() {
             The Face Behind Beautiful Yards
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Personal service from Austin's most trusted landscaping professional
+            Personal service from Buda's most trusted landscaping professional
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export function AboutSection() {
               🌱 Founder & Lead Landscaper
             </div>
             <div className="bg-warm-orange/10 text-warm-orange px-4 py-2 rounded-full text-sm font-semibold">
-              📍 Austin Local Since 2015
+              📍 Buda Local Since 2015
             </div>
           </div>
         </div>
@@ -153,17 +153,17 @@ export function AboutSection() {
 
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
-                Since founding Rosales Yard Maintenance in 2019, John has built Austin's most trusted landscaping service through <strong className="text-primary-green">personal dedication and exceptional results</strong>. His hands-on approach ensures every customer receives the same meticulous care that built our reputation.
+                Since founding Rosales Yard Maintenance in 2019, John has built Buda's most trusted landscaping service through <strong className="text-primary-green">personal dedication and exceptional results</strong>. His hands-on approach ensures every customer receives the same meticulous care that built our reputation.
               </p>
 
               <p>
-                John's expertise in <strong className="text-accent-green">Austin's unique climate, native plants, and soil conditions</strong> comes from years of experience and genuine passion for creating beautiful outdoor spaces. He personally oversees every project, from initial consultation to final cleanup.
+                John's expertise in <strong className="text-accent-green">Buda's unique climate, native plants, and soil conditions</strong> comes from years of experience and genuine passion for creating beautiful outdoor spaces. He personally oversees every project, from initial consultation to final cleanup.
               </p>
 
               {/* Quote */}
               <div className="bg-accent-green/5 border-l-4 border-accent-green rounded-r-xl p-6 my-8">
                 <p className="text-xl italic text-primary-green font-medium leading-relaxed">
-                  "Every yard has potential to be extraordinary. My mission is to help Austin families fall in love with their outdoor spaces again."
+                  "Every yard has potential to be extraordinary. My mission is to help Buda families fall in love with their outdoor spaces again."
                 </p>
                 <div className="flex items-center mt-4 text-sm text-gray-600">
                   <div className="w-8 h-8 bg-accent-green/20 rounded-full flex items-center justify-center mr-3">
@@ -180,7 +180,15 @@ export function AboutSection() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-accent-green rounded-full"></div>
-                  <span><strong>Response Time:</strong> Same-day quotes guaranteed</span>
+                  <span><strong>Email:</strong> rosalesyards@gmail.com</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-green rounded-full"></div>
+                  <span><strong>Service Hours:</strong> 8:00 AM - 5:00 PM, Monday to Friday</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-accent-green rounded-full"></div>
+                  <span><strong>Weekend:</strong> Leave a message and a team member will contact you</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-accent-green rounded-full"></div>
@@ -194,7 +202,7 @@ export function AboutSection() {
         {/* Achievement Stats */}
         <div className="bg-gradient-to-r from-neutral-light to-white rounded-3xl p-10 shadow-light">
           <h3 className="text-2xl font-bold text-center text-primary-green mb-10">
-            Proven Results Across Austin
+            Proven Results Across Buda
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
@@ -263,7 +271,7 @@ export function AboutSection() {
         <div className="text-center mt-16">
           <div className="inline-flex items-center bg-green-50 border border-accent-green/20 text-accent-green px-8 py-4 rounded-full text-lg font-semibold">
             <Leaf className="mr-3" size={24} />
-            <span>Ready to work with Austin's landscaping expert?</span>
+            <span>Ready to work with Buda's landscaping expert?</span>
           </div>
         </div>
       </div>

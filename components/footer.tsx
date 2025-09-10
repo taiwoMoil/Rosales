@@ -4,8 +4,8 @@ import { Phone, MessageCircle, Mail, MapPin, Clock, Star, Leaf, Scissors, Sprout
 
 
 const areaLinks = [
-  { name: 'Austin (South Austin)', href: '/areas-served/austin' },
   { name: 'Buda, TX', href: '/areas-served/buda' },
+  { name: 'Austin (South Austin)', href: '/areas-served/austin' },
   { name: 'Kyle, TX', href: '/areas-served/kyle' },
   { name: 'Manchaca, TX', href: '/areas-served/manchaca' },
 ];
@@ -53,7 +53,7 @@ export function Footer() {
               </div>
               
               <p className="text-gray-300 text-sm leading-relaxed">
-                Austin's premier landscaping company since 2019. We transform ordinary yards into extraordinary outdoor spaces with professional care and guaranteed results.
+                Buda's premier landscaping company since 2019. We transform ordinary yards into extraordinary outdoor spaces with professional care and guaranteed results.
               </p>
 
               {/* Trust Badges */}
@@ -167,7 +167,7 @@ export function Footer() {
                   © {currentYear} Rosales Yard Maintenance. All rights reserved.
                 </p>
                 <p className="text-gray-400 text-xs mt-1">
-                  Licensed & Insured in Texas • Proudly Serving Austin Since 2019
+                  Licensed & Insured in Texas • Proudly Serving Buda Since 2019
                 </p>
               </div>
 

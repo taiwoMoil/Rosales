@@ -13,7 +13,7 @@ interface HeroProps {
 
 export function Hero({ 
   title = "Beautiful Yards.\nGuaranteed Results.",
-  subtitle = "Austin's most trusted lawn care service since 2019",
+  subtitle = "Buda's most trusted lawn care service since 2019",
   description = "Over 500 satisfied customers across Buda, Kyle, Manchaca, and South Austin. Experience the difference of owner-operated professional yard care.",
   showTrustBadges = true
 }: HeroProps) {

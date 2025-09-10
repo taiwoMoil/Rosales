@@ -70,7 +70,7 @@ export function GallerySection() {
           </div>
           
           <h2 className="section-title mb-6">
-            Austin Yard <span className="text-accent-green">Transformations</span>
+            Buda Yard <span className="text-accent-green">Transformations</span>
           </h2>
           
           <p className="section-subtitle mb-4">
@@ -78,7 +78,7 @@ export function GallerySection() {
           </p>
           
           <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
-            From overgrown disasters to neighborhood showcases - discover how we've transformed 500+ Austin-area yards. 
+            From overgrown disasters to neighborhood showcases - discover how we've transformed 500+ Buda-area yards. 
             <span className="text-accent-green font-semibold"> Drag the slider to see the incredible before & after results.</span>
           </p>
         </div>
@@ -208,7 +208,7 @@ export function GallerySection() {
             Ready for Your Own <span className="text-accent-green">Transformation?</span>
           </h3>
           <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-            Join 500+ satisfied Austin homeowners who've transformed their yards with Rosales. Get your instant quote in 60 seconds!
+            Join 500+ satisfied Buda homeowners who've transformed their yards with Rosales. Get your instant quote in 60 seconds!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 

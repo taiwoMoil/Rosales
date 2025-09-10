@@ -104,7 +104,7 @@ export function Header() {
               </a>
 
               <a
-                href="https://wa.me/15126941773?text=Hi! I'm interested in lawn care services in Austin"
+                href="https://wa.me/15126941773?text=Hi! I'm interested in lawn care services in Buda"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
@@ -171,7 +171,7 @@ export function Header() {
                   </a>
 
                   <a
-                    href="https://wa.me/15126941773?text=Hi! I'm interested in lawn care services in Austin"
+                    href="https://wa.me/15126941773?text=Hi! I'm interested in lawn care services in Buda"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:shadow-xl group"

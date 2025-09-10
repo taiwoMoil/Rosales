@@ -11,18 +11,17 @@ interface ChatSystemProps {
 }
 
 const PRICING_CONFIG = {
-  small: { min: 80, max: 120 },   // 0-4,500 sq ft
-  medium: { min: 120, max: 180 }, // 4,501-6,500 sq ft
-  large: { min: 180, max: 250 },  // 6,501-8,500 sq ft
-  xl: 'contact'                   // 8,500+ sq ft
+  small: 80,    // 0-4,500 sq ft
+  medium: 95,   // 4,501-6,500 sq ft
+  large: 110,   // 6,501-8,500 sq ft
+  xl: 'contact' // 8,500+ sq ft
 };
 
 const AREAS = {
   austin: 'South Austin',
   buda: 'Buda, TX', 
   kyle: 'Kyle, TX',
-  manchaca: 'Manchaca, TX',
-  other: 'Other Austin Area'
+  manchaca: 'Manchaca, TX'
 };
 
 const SERVICES = {
@@ -55,7 +54,7 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
   const initializeChat = () => {
     const welcomeMessage: ChatMessage = {
       id: '1',
-      text: `Hi! I'm here to help transform your Austin-area yard! 🌹<br><br><strong>John and the team have helped 500+ homeowners</strong> in Buda, Kyle, Manchaca, and South Austin get the beautiful lawn they want.<br><br><strong>Which service interests you most?</strong>`,
+      text: `Hi! I'm here to help transform your Buda-area yard! 🌹<br><br><strong>John and the team have helped 500+ homeowners</strong> in Buda, Kyle, Manchaca, and South Austin get the beautiful lawn they want.<br><br><strong>Which service interests you most?</strong>`,
       isBot: true,
       timestamp: new Date(),
       options: [
@@ -155,8 +154,7 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
       { id: 'austin', text: '🏙️ South Austin', value: 'austin' },
       { id: 'buda', text: '🏡 Buda', value: 'buda' },
       { id: 'kyle', text: '🌳 Kyle', value: 'kyle' },
-      { id: 'manchaca', text: '🏞️ Manchaca', value: 'manchaca' },
-      { id: 'other', text: '📍 Other Austin area', value: 'other' }
+      { id: 'manchaca', text: '🏞️ Manchaca', value: 'manchaca' }
     ];
 
     addMessage(
@@ -193,8 +191,6 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
         case 'austin':
           response += 'South Austin is where we started - tons of experience there! 🏙️';
           break;
-        default:
-          response += 'We serve most of the greater Austin area! 📍';
       }
       
       addMessage(response, true);
@@ -251,15 +247,18 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
   };
 
   const showPricing = (size: string) => {
-    const pricing = PRICING_CONFIG[size as keyof typeof PRICING_CONFIG] as { min: number; max: number };
-    const areaName = AREAS[chatState.userData.area as keyof typeof AREAS] || 'Austin area';
+    const price = PRICING_CONFIG[size as keyof typeof PRICING_CONFIG];
+    const priceText = price === 'contact' 
+      ? 'contact us for a custom quote' 
+      : `$${price} per service`;
+    const areaName = AREAS[chatState.userData.area as keyof typeof AREAS] || 'Buda area';
 
     addMessage(
       `<div style="color: #111827 !important;">
         🎉 Here's your instant quote for lawn mowing service!<br><br>
         💰 <strong style="color: #111827 !important;">Spring Special Active:</strong> $20 OFF your first service when you book 2 services!<br><br>
         <div class="bg-gradient-to-r from-accent-green to-primary-green p-4 rounded-lg text-center mt-3" style="color: #000000 !important;">
-          <div class="text-2xl font-bold" style="color: #000000 !important;">$${pricing.min} - $${pricing.max}</div>
+          <div class="text-2xl font-bold" style="color: #000000 !important;">${priceText}</div>
           <div class="text-sm opacity-90" style="color: #000000 !important;">Per mowing service in ${areaName}</div>
         </div><br>
         <button style="color: #000000 !important;" class="w-full bg-warm-orange hover:bg-orange-600 text-white py-3 px-6 rounded-full font-semibold transition-all mt-3" onclick="window.chatInstance?.bookService()">
@@ -430,7 +429,7 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
           
           <div className="">
             <h3 className="text-2xl font-bold mb-2">🌹 Rosales Quick Quote</h3>
-            <p className="text-sm opacity-90">Get your Austin yard estimate in 60 seconds!</p>
+            <p className="text-sm opacity-90">Get your Buda yard estimate in 60 seconds!</p>
             <div className="flex items-center justify-center space-x-4 mt-3 text-xs opacity-80">
               <span className="flex items-center space-x-1">
                 <div className="w-2 h-2 bg-green-300 rounded-full animate-pulse"></div>

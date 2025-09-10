@@ -14,14 +14,14 @@ const processSteps = [
   {
     step: '2', 
     icon: Phone,
-    title: 'We Call You',
-    description: 'John or a team member calls within 2 hours to discuss your vision, answer questions, and schedule your service at your convenience.',
+    title: 'A Rosales team member calls',
+    description: 'A Rosales team member calls within 2 hours to discuss your vision, answer questions, and schedule your service at your convenience.',
     highlight: 'within 2 hours'
   },
   {
     step: '3',
     icon: CheckCircle,
-    title: 'Service Confirmation',
+    title: 'You’ll receive a text and email confirmation',
     description: 'We confirm all details including services, pricing, and schedule. You\'ll receive a text confirmation with your crew\'s arrival time.',
     highlight: 'text confirmation'
   },
@@ -29,7 +29,7 @@ const processSteps = [
     step: '4',
     icon: Leaf,
     title: 'Beautiful Results',
-    description: 'Our professional crew arrives on time with commercial equipment and transforms your yard with guaranteed satisfaction.',
+    description: 'Our professional, uniformed crew arrives in clearly marked vehicles with commercial-grade equipment and transforms your yard — all with our satisfaction guarantee.',
     highlight: 'guaranteed satisfaction'
   }
 ];
@@ -186,7 +186,7 @@ export function ProcessSection() {
             </h3>
             
             <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Join hundreds of satisfied Austin homeowners who trust us with their outdoor spaces
+              Join hundreds of satisfied Buda homeowners who trust us with their outdoor spaces
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

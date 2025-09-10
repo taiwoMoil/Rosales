@@ -43,7 +43,7 @@ export function CTASection() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center bg-accent-green/10 text-accent-green px-6 py-2 rounded-full text-sm font-semibold mb-6">
               <Star className="mr-2" size={16} />
-              Austin's #1 Rated Landscaping Service
+              Buda's #1 Rated Landscaping Service
             </div>
             
             <h2 className="text-4xl lg:text-6xl font-bold text-primary-green mb-6 leading-tight">
@@ -52,7 +52,7 @@ export function CTASection() {
             </h2>
             
             <p className="text-xl lg:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Join 500+ satisfied homeowners in Austin, Buda, Kyle & Manchaca who trust us with their outdoor spaces
+              Join 500+ satisfied homeowners in Buda, Austin, Kyle & Manchaca who trust us with their outdoor spaces
             </p>
           </div>
 
