@@ -15,7 +15,7 @@ export function StructuredData() {
     },
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Austin",
+      "addressLocality": "Buda",
       "addressRegion": "TX",
       "addressCountry": "US"
     },
