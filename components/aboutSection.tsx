@@ -115,7 +115,7 @@ export function AboutSection() {
                   {/* Image placeholder with professional styling */}
                   <div className="w-80 h-80 mx-auto bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center border-4 border-white shadow-xl overflow-hidden">
                     <Image
-                      src="/placeholder-user.jpg"
+                      src="/john_rosales.jpg"
                       alt="John Rosales - Owner of Rosales Yard Maintenance"
                       width={320}
                       height={320}

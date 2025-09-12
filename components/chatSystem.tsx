@@ -54,7 +54,7 @@ export function ChatSystem({ chatState, setChatState }: ChatSystemProps) {
   const initializeChat = () => {
     const welcomeMessage: ChatMessage = {
       id: '1',
-      text: `Hi! I'm here to help transform your Buda-area yard! 🌹<br><br><strong>John and the team have helped 500+ homeowners</strong> in Buda, Kyle, Manchaca, and South Austin get the beautiful lawn they want.<br><br><strong>Which service interests you most?</strong>`,
+      text: `Hi! I'm here to help transform your Buda-area yard! 🌹<br><br><strong>John and the team have helped 5000+ homeowners</strong> in Buda, Kyle, Manchaca, and South Austin get the beautiful lawn they want.<br><br><strong>Which service interests you most?</strong>`,
       isBot: true,
       timestamp: new Date(),
       options: [

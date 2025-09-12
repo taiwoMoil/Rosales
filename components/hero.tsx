@@ -14,7 +14,7 @@ interface HeroProps {
 export function Hero({ 
   title = "Beautiful Yards.\nGuaranteed Results.",
   subtitle = "Buda's most trusted lawn care service since 2019",
-  description = "Over 500 satisfied customers across Buda, Kyle, Manchaca, and South Austin. Experience the difference of owner-operated professional yard care.",
+  description = "Over 5000 satisfied customers across Buda, Kyle, Manchaca, and South Austin. Experience the difference of owner-operated professional yard care.",
   showTrustBadges = true
 }: HeroProps) {
   const { openChat } = useChat();
@@ -27,7 +27,7 @@ export function Hero({
   };
 
   const trustBadges = [
-    { icon: Users, text: '500+ Happy Customers', count: '500+' },
+    { icon: Users, text: '5000+ Happy Customers', count: '5000+' },
     { icon: Shield, text: 'Fully Licensed & Insured', badge: 'Licensed' },
     { icon: CheckCircle, text: '100% Guarantee', badge: '100%' },
     { icon: Star, text: 'Owner-Operated Since 2019', badge: 'Since 2019' },

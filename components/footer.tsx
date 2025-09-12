@@ -131,11 +131,11 @@ export function Footer() {
                 </a>
                 
                 <a
-                  href="mailto:info@rosalesyard.com"
+                  href="mailto:rosalesyards@gmail.com"
                   className="flex items-center text-gray-300 hover:text-accent-green transition-colors group"
                 >
                   <Mail className="mr-3 group-hover:text-accent-green transition-colors" size={16} />
-                  <span className="text-sm">info@rosalesyard.com</span>
+                  <span className="text-sm">rosalesyards@gmail.com</span>
                 </a>
               </div>
 
