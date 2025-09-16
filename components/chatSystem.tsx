@@ -14,7 +14,7 @@ const PRICING_CONFIG = {
   small: 80,    // 0-4,500 sq ft
   medium: 95,   // 4,501-6,500 sq ft
   large: 110,   // 6,501-8,500 sq ft
-  xl: 'contact' // 8,500+ sq ft
+  xl: 'contact' // 8,500+ sq f
 };
 
 const AREAS = {
