@@ -23,8 +23,8 @@ const galleryData: GalleryCard[] = [
     location: 'Buda, TX',
     duration: '2 weeks',
     rating: 5,
-    beforeImage: '/hero-bg.png', // placeholder - replace with actual before image
-    afterImage: '/hero-bg.png'   // placeholder - replace with actual after image
+    beforeImage: '/Before+1.jpg', // placeholder - replace with actual before image
+    afterImage: '/After+1.jpg'   // placeholder - replace with actual after image
   },
   {
     id: '2',
@@ -33,8 +33,8 @@ const galleryData: GalleryCard[] = [
     location: 'Kyle, TX',
     duration: '3 weeks',
     rating: 5,
-    beforeImage: '/hero-bg.png', // placeholder
-    afterImage: '/hero-bg.png'   // placeholder
+    beforeImage: '/Before+2.jpg', // placeholder
+    afterImage: '/After+2.jpg'   // placeholder
   },
   {
     id: '3',
@@ -43,8 +43,18 @@ const galleryData: GalleryCard[] = [
     location: 'Manchaca, TX',
     duration: '6 months',
     rating: 5,
-    beforeImage: '/hero-bg.png', // placeholder
-    afterImage: '/hero-bg.png'   // placeholder
+    beforeImage: '/Before+3.jpg', // placeholder
+    afterImage: '/After+3.jpg'   // placeholder
+  },
+  {
+    id: '4',
+    title: 'Weekly Maintenance Results',
+    description: 'Lawn mowing and maintenance',
+    location: 'Austin, TX',
+    duration: '6 months',
+    rating: 5,
+    beforeImage: '/Before+4.jpg', // placeholder
+    afterImage: '/After+4.jpg'   // placeholder
   }
 ];
 
